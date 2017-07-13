@@ -4,4 +4,5 @@ title: Home
 permalink: /
 ---
 
-Map of pollution here
+Map of pollution
+<div id="mapid"></div>
