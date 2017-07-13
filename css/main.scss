@@ -60,6 +60,9 @@ $on-laptop:        780px;
 
 }
 
+/* for leaflet */
+#mapid { height: 180px; }
+
 @import
         "normalize",
         "base",
