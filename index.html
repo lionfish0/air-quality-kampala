@@ -18,6 +18,6 @@ Map of pollution
 		id: 'mapbox.streets'
 	}).addTo(mymap);
 	
-	var bounds = L.latLngBounds([[ 0, 1], [ 32, 33]]);
+	var bounds = L.latLngBounds([[ 32, 1], [ 33, 0]]); #NE corner, SW corner
 	L.rectangle(bounds).addTo(mymap);
 </script>
