@@ -17,5 +17,7 @@ Map of pollution
 			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 		id: 'mapbox.streets'
 	}).addTo(mymap);
-
+	
+	var bounds = L.latLngBounds([[ 0, 1], [ 32, 33]]);
+	L.rectangle(bounds).addTo(mymap);
 </script>
