@@ -20,5 +20,5 @@ Map of pollution
 	
 	var bounds = L.latLngBounds([[ 0, 32], [ 1, 33]]);
 	L.rectangle(bounds).addTo(mymap);
-	L.imageOverlay( 'http://54.229.250.241/plot.png', bounds );
+	L.imageOverlay( 'http://54.229.250.241/plot.png', bounds, {opacity: 0.8}).addTo(map);
 </script>
