@@ -19,6 +19,6 @@ Map of pollution
 	}).addTo(mymap);
 	
 	var bounds = L.latLngBounds([[ 0, 32], [ 1, 33]]);
-	//L.rectangle(bounds).addTo(mymap);
+	L.rectangle(bounds).addTo(mymap);
 	L.imageOverlay( 'http://54.229.250.241/plot.png', bounds );
 </script>
